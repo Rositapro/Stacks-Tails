@@ -27,6 +27,7 @@ namespace StacksTails
         {
             FormTail formTail = new FormTail();
             formTail.Show();
+
         }
     }
 }

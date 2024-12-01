@@ -43,7 +43,7 @@ namespace StacksTails
             else
             {
                 int elemento = stack[tope--];
-                MessageBox.Show("Element" + elemento + " removed.");
+                MessageBox.Show("Element " + elemento + " removed.");
             }
         }
 
@@ -52,7 +52,7 @@ namespace StacksTails
             lstStack.Items.Clear();
             if (tope == -1)
             {
-                lstStack.Items.Add("Empty stack.");
+                lstStack.Items.Add(" Empty stack.");
             }
             else
             {
